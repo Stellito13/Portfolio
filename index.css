@@ -11,9 +11,9 @@
 
     --text-xs:   11px;    /* labels secondaires : proj-year */
     --text-sm:   13px;    /* corps courant : p, li */
-    --text-base: 15px;    /* titres de sections internes (h3, h4) */
-    --text-lg:   20px;    /* titres de cards (h2 dans card) */
-    --text-xl:   28px;    /* titres majeurs : logo, nav, .titre, track-title */
+    --text-base: 16px;    /* titres de sections internes (h3, h4) */
+    --text-lg:   24px;    /* titres de cards (h2 dans card) */
+    --text-xl:   32px;    /* titres majeurs : logo, nav, .titre, track-title */
 
     --leading-tight:  1.15;
     --leading-normal: 1.55;
@@ -132,15 +132,15 @@ nav a:hover { opacity: .7; }
 /* grid profil : photo | texte */
 .grid1 {
     display: grid;
-    grid-template-columns: 130px 1fr;
+    grid-template-columns: 160px 1fr;
     gap: 16px;
     align-items: start;
 }
 
 /* Photo de profil : haute, cadrée sur le haut */
 .pdp {
-    width: 130px;
-    height: 175px;
+    width: 160px;
+    height: 205px;
     object-fit: cover;
     object-position: top center;
     border: 3px solid black;
