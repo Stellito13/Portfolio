@@ -37,14 +37,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 2px 40px;
     background: black;
     color: white;
 }
 
 .logo {
-    font-family: var(--font-display);
-    font-size: var(--text-xl);
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px; /* ajuste ici si besoin */
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
 
 nav ul { list-style: none; display: flex; gap: 60px; }
@@ -140,7 +147,7 @@ nav a:hover { opacity: .7; }
 /* Photo de profil : haute, cadrée sur le haut */
 .pdp {
     width: 190px;
-    height: 160px;
+    height: 140px;
     object-fit: cover;
     object-position: top center;
     border: 3px solid black;

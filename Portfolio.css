@@ -37,14 +37,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 2px 40px;
     background: black;
     color: white;
 }
 
 .logo {
-    font-family: var(--font-display);
-    font-size: var(--text-xl);
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px; /* ajuste ici si besoin */
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
 
 nav ul { list-style: none; display: flex; gap: 60px; }
@@ -132,15 +139,15 @@ nav a:hover { opacity: .7; }
 /* grid profil : photo | texte */
 .grid1 {
     display: grid;
-    grid-template-columns: 190px 1fr;
+    grid-template-columns: 180px 1fr;
     gap: 16px;
     align-items: start;
 }
 
 /* Photo de profil : haute, cadrée sur le haut */
 .pdp {
-    width: 190px;
-    height: 160px;
+    width: 180px;
+    height: 110px;
     object-fit: cover;
     object-position: top center;
     border: 3px solid black;
