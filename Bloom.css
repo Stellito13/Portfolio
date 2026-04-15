@@ -93,7 +93,7 @@ nav a:hover { opacity: .7; }
 .card {
     background: rgba(200, 200, 200, 0.92);
     padding: 18px 20px;
-    border: 3px solid black;
+    border: 7px solid black;
 }
 
 /* ── Titres dans les cards ── */
@@ -150,7 +150,7 @@ nav a:hover { opacity: .7; }
     height: 120px;
     object-fit: cover;
     object-position: top center;
-    border: 3px solid black;
+    border: 7px solid black;
     display: block;
 }
 
@@ -184,7 +184,7 @@ nav a:hover { opacity: .7; }
 /* Card projet */
 .project-card {
     background: rgba(200, 200, 200, 0.9);
-    border: 2px solid black;
+    border: 5px solid black;
     overflow: hidden;
     transition: transform .25s, box-shadow .25s;
     display: flex;
@@ -436,7 +436,7 @@ a:has(.project-card) { text-decoration: none; color: inherit; }
     gap: 20px;
     max-width: 88vw;
     max-height: 90vh;
-    border: 3px solid black;
+    border: 5px solid black;
     background: rgba(200, 200, 200, 0.96);
     padding: 14px;
 }
