@@ -139,16 +139,18 @@ nav a:hover { opacity: .7; }
 }
 
 /* grid profil : photo | texte */
+
+
 .grid1 {
     display: grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 155px 1fr;
     gap: 16px;
     align-items: start;
 }
 
 /* Photo de profil : haute, cadrée sur le haut */
 .pdp {
-    width: 160px;
+    width: 155px;
     height: 205px;
     object-fit: cover;
     object-position: top center;
